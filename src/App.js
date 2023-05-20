@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import {Form1} from "./components/form1";
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
       </header>
+        <div>
+            <h1>Контактна інформація</h1>
+            <div>
+                <p>Адреса:</p><p> вул. Чуднівська, 103, м. Житомир, Україна, 10005</p>
+                <p>Кабінет:</p><p> 100 (Відповідальний секретар)</p>
+                <p>Телефони:</p><p> +38 (0412) 24-14-27; +38 (067) 411-32-95</p>
+                <p>E-mail:</p><p> pr_k@ztu.edu.ua</p>
+            </div>
+            <div class="heading">
+                Графік роботи
+            </div>
+            <div>
+                Приймальна комісія Житомирської політехніки працює за таким розкладом:
+
+                Понеділок-П’ятниця – з 09:00 до 17:00
+                Субота – з 09:00 до 13:00
+                Неділя – вихідний
+            </div>
+            <Form1/>
+        </div>
     </div>
   );
 }

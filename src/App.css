@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.heading {
+  font-size: 1.625em;
+}
+
+h1{
+  color: #024777;
+  font-size: 2.5em;
+  font-weight: 600;
+}
