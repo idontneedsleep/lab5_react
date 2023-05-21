@@ -35,6 +35,9 @@ export class Form1 extends React.Component {
                 <div>
                     Поля відмічені * мають бути обов'язково заповненими
                 </div>
+                <div>
+                    <input type="submit" name="send" value='Відправити' />
+                </div>
             </form>
         );
     }

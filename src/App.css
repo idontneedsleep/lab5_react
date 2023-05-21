@@ -37,12 +37,79 @@
   }
 }
 
+body {
+  background: #f0f0f0;
+  color: #555;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
 .heading {
   font-size: 1.625em;
+  font-weight: 700;
+  padding-left: 46px;
+  margin: 0 0 1.5em;
 }
 
 h1{
   color: #024777;
   font-size: 2.5em;
   font-weight: 600;
+}
+
+@media (min-width: 768px) {
+.container {
+  padding: 45px 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 0 #e0e0e0;
+  box-sizing: border-box;
+}
+}
+
+.container2 {
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.map {
+  cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+}
+
+iframe {
+  border: none!important;
+}
+
+input[type="text"], input[type="email"] {
+  height: 24px;
+  width: 332px;
+  padding: 6px 12px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+footer p{
+  margin: 0 0 10px;
+  font-size: 13px;
 }
