@@ -50,18 +50,21 @@ body {
   font-size: 1.625em;
   font-weight: 700;
   padding-left: 46px;
-  margin: 0 0 1.5em;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h1{
   color: #024777;
   font-size: 2.5em;
   font-weight: 600;
+  margin-bottom: 60px;
 }
 
 @media (min-width: 768px) {
 .container {
   padding: 45px 15px;
+  margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
   width: 1000px;
@@ -101,6 +104,33 @@ input[type="text"], input[type="email"] {
   background-color: #fff;
   border: 1px solid #ccc;
   vertical-align: middle;
+}
+
+textarea {
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.comment {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-style: italic;
+  color: #a9a9a9;
+}
+
+input[type="submit"] {
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 6px 12px;
+  font-size: 14px;
 }
 
 footer {

@@ -30,9 +30,9 @@ export class Form1 extends React.Component {
                     <input type="text" name="theme" placeholder="Тема*" value={this.state.theme} />
                 </div>
                 <div>
-                    <textarea name="message" placeholder="Повідомлення" value={this.state.message} />
+                    <textarea cols="40" rows="10" name="message" placeholder="Повідомлення" value={this.state.message} />
                 </div>
-                <div>
+                <div class="comment">
                     Поля відмічені * мають бути обов'язково заповненими
                 </div>
                 <div>
